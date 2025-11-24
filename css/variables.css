@@ -39,6 +39,7 @@
     box-shadow: 2px 2px 3px rgba(8, 8, 8, 0.356);
     cursor: pointer;
     border-color: #FF3A3A;
+    border-radius: 2px;
 }
 
 .btn-1:hover{
@@ -57,6 +58,7 @@
     box-shadow: 2px 2px 3px rgba(8, 8, 8, 0.25);
     cursor: pointer;
     border-color: #FF3A3A;
+    border-radius: 2px;
 }
 
 .btn-2:hover{

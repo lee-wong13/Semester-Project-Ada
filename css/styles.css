@@ -49,7 +49,7 @@ h3{
     margin-bottom: 100px;
 }
 
-.banner_img img{
+.banner_img img {
     width: 800px;
     height: 500px;
 }
@@ -77,6 +77,28 @@ h3{
 .content_card_img{
     width: 100%;
 }
+
+footer{
+    width: 100%;
+    height: 636px;
+    background-color: var(--color-primary);
+    
+}
+
+.footer_container{
+    display: flex;
+    max-width: 1440px;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+}
+
+.footer_logo img{
+    width: 100%;
+    height: 90px;
+}
+
+
 
 
 
