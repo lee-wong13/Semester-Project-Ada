@@ -1,0 +1,59 @@
+@import url("./variables.css");
+@import url("./reset.css");
+@import url("./nav.css");
+
+h1{
+    text-align: center;
+    color: var(--color-primary);
+    font-size: var(--h1-font-size);
+    font-family: var(--heading-font-family);
+    margin-top: 4rem;
+}
+
+p{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    text-align: center;
+    font-weight: var(--font-semi-bold);
+    width: 1145px;
+    margin: 2rem auto;
+}
+
+.gallery{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 7rem auto;
+}
+
+.info_card{
+    max-width: 1140px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 5rem auto;
+    padding: 30px;
+}
+
+.info_card h2{
+    font-family: var(--heading-font-family);
+    font-size: var(--h2-font-size);
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.info_card p{
+    text-align: start;
+    font-weight: var(--font-regular);
+}
+
+
+
+/* for detail pages for different exhibitions */
+
+.cta button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+}

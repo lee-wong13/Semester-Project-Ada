@@ -29,7 +29,7 @@ p{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     margin: 5rem auto;
-    padding: 30px;
+    padding: 30px 50px;
 }
 
 .contact_form h3, 
@@ -52,7 +52,30 @@ p{
     font-weight: var(--font-bold);
 }
 
-input{
+.input input{
     width: 730px;
     height: 30px;
+    margin-left: 15px;
+}
+
+.input_msg input{
+    width: 798px;
+    height: 240px;
+}
+
+.btn-1{
+    margin-top: 30px;
+}
+
+.info_card h4{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: 10px;
+}
+
+.desc{
+    text-align: start;
+    margin: 10px 0;
+    font-weight: var(--font-regular);
 }
