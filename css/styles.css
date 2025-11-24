@@ -1,3 +1,85 @@
 @import url("./variables.css");
 @import url("./reset.css");
 @import url("./nav.css");
+
+h1 {
+    font-size: var(--h1-font-size);
+   font-family: var(--heading-font-family);
+   color: var(--color-primary);
+}
+
+h2{
+    font-family: var(--heading-font-family);
+    font-size: var(--h2-font-size);
+    color: var(--color-primary);
+}
+
+h3{
+    font-family: var(--heading-font-family);
+    font-size: var(--h3-font-size);
+    color: var(--color-primary);
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.banner_content{
+    position: relative;
+    z-index: 1;
+    max-width: 720px;
+}
+
+.banner_content h1{
+   margin-bottom: 60px;
+}
+
+.banner_content p{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi-bold);
+    margin-bottom: 100px;
+}
+
+.banner_img img{
+    width: 800px;
+    height: 500px;
+}
+
+.btn-1{
+    margin-right: 70px;
+}
+
+.museum_content{
+    text-align: center;
+    margin-top: 3rem;
+    padding: 0 40px;
+}
+
+.content_grid{
+    display: flex;
+}
+
+.content_card{
+    max-width: 327px;
+    margin: auto;
+    text-align: center;
+}
+
+.content_card_img{
+    width: 100%;
+}
+
+
+
+
+
+
