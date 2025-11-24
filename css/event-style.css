@@ -22,37 +22,32 @@ p{
     font-weight: var(--font-semi-bold);
 }
 
-.contact_form, 
 .info_card{
-    max-width: 909px;
+    max-width: 1145px;
     border: 1px solid black;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     margin: 5rem auto;
-    padding: 30px;
+    padding: 50px;
 }
 
-.contact_form h3, 
 .info_card h3{
     color: var(--color-primary);
     font-family: var(--heading-font-family);
     font-size: 36px;
     margin-bottom: 30px;
-    text-align: center;
 }
 
-.input{
-    display: flex;
-    margin: 20px auto;
-}
-
-.input h4{
-    font-size: var(--normal-font-size);
+.desc{
     font-family: var(--body-font);
-    font-weight: var(--font-bold);
+    text-align: start;
+    font-weight: var(--font-regular);
+    line-height: 30px;
+    margin-bottom: 20px;
 }
 
-input{
-    width: 730px;
-    height: 30px;
+.info_card a{
+    text-decoration: none;
+    color: var(--color-primary);
+    font-family: var(--body-font);
 }
