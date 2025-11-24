@@ -2,6 +2,7 @@
 @import url("./reset.css");
 @import url("./nav.css");
 
+
 h1 {
     font-size: var(--h1-font-size);
    font-family: var(--heading-font-family);
@@ -19,6 +20,7 @@ h3{
     font-size: var(--h3-font-size);
     color: var(--color-primary);
 }
+
 
 .container{
     max-width: 1440px;
@@ -58,6 +60,8 @@ h3{
     margin-right: 70px;
 }
 
+/* ======================= Experience the Museum ============================= */ 
+
 .museum_content{
     text-align: center;
     margin-top: 3rem;
@@ -66,36 +70,124 @@ h3{
 
 .content_grid{
     display: flex;
+    margin: 50px auto;
 }
 
 .content_card{
-    max-width: 327px;
+    width: 327px;
+    height: 348px;
     margin: auto;
     text-align: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
-.content_card_img{
-    width: 100%;
+.content_card img{
+    max-width: 100%;
+    max-height: 205px;
+    margin-top: 30px;
 }
+
+.content_card h3{
+    margin: 30px 0;
+}
+
+/* ========================== Our Mission =========================*/ 
+
+.mission{
+    max-width: 1440px;
+    max-height: 407px;
+    background-color: var(--color-primary);
+    margin: 5rem auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.mission_content{
+    display: flex;
+}
+
+.mission_desc{
+    padding: 30px 50px;
+}
+
+.mission_desc h2{
+    color: var(--color-secondary);
+    margin-bottom: 20px;
+}
+
+.mission_desc p{
+    color: var(--color-secondary);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    line-height: 20px;
+}
+
+/* ============================= Events and Programs ==============================*/
+
+.events{
+    margin: 5rem auto;
+}
+
+.events h2{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.events_card{
+    width: 1181px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin: 30px auto;
+}
+
+.events_card p{
+    margin: 20px 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+.events_card .date_time{
+    font-size: 14px;
+}
+
+
 
 footer{
     width: 100%;
-    height: 636px;
     background-color: var(--color-primary);
     
 }
 
 .footer_container{
     display: flex;
+    justify-content: space-between;
     max-width: 1440px;
-    justify-content: center;
-    align-items: center;
-    margin: auto 0;
+    height: 363px;
+    margin: auto;
+    padding: 30px 0;
+    color: var(--color-secondary);
 }
 
 .footer_logo img{
     width: 100%;
     height: 90px;
+    margin-top: 30px;
+}
+
+.footer_address_contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.copy_right{
+    background-color: var(--color-secondary);
+    text-align: center;
+    font-family: var(--body-font);
+    font-size: 14px;
 }
 
 

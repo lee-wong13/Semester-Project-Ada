@@ -1,0 +1,23 @@
+@import url("./variables.css");
+@import url("./reset.css");
+@import url("./nav.css");
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: var(--color-primary);
+    font-size: var(--h1-font-size);
+    font-family: var(--heading-font-family);
+    margin-top: 4rem;
+}
+
+p{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    text-align: center;
+    font-weight: var(--font-semi-bold);
+}

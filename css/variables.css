@@ -25,6 +25,11 @@
     --font-black: 900;
 }
 
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+
 
 /*========== variable for btns===============*/
 
