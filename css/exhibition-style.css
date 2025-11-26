@@ -20,3 +20,34 @@ p{
     width: 1145px;
     margin: 2rem auto;
 }
+
+.exhibition_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1145px;
+    margin: auto;
+}
+
+.exhibition_content a{
+    text-decoration: none;
+}
+
+.exhibition_card{
+    margin: 3rem 0;
+    width: 307px;
+    height: 338px;
+    text-align: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.exhibition_card h3{
+    color: var(--color-primary);
+    font-size: var(--h3-font-size);
+    font-family: var(--heading-font-family);
+    margin: 2rem 0;
+}
+
