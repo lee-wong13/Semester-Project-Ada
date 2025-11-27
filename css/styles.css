@@ -71,6 +71,8 @@ h3{
 
 .content_grid{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: 50px auto;
 }
 
@@ -144,6 +146,7 @@ h3{
     margin: 30px auto;
 }
 
+
 .events_card p{
     margin: 20px 0;
     font-family: var(--body-font);
@@ -155,41 +158,6 @@ h3{
 }
 
 
-
-footer{
-    width: 100%;
-    background-color: var(--color-primary);
-    
-}
-
-.footer_container{
-    display: flex;
-    justify-content: space-between;
-    max-width: 1440px;
-    height: 363px;
-    margin: auto;
-    padding: 30px 0;
-    color: var(--color-secondary);
-}
-
-.footer_logo img{
-    width: 100%;
-    height: 90px;
-    margin-top: 30px;
-}
-
-.footer_address_contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.copy_right{
-    background-color: var(--color-secondary);
-    text-align: center;
-    font-family: var(--body-font);
-    font-size: 14px;
-}
 
 
 

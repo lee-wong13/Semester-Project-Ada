@@ -46,6 +46,7 @@ p{
 .info_card p{
     text-align: start;
     font-weight: var(--font-regular);
+    padding:  2rem 0;
 }
 
 

@@ -30,6 +30,10 @@
     margin: auto;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 /*========== variable for btns===============*/
 
@@ -69,4 +73,9 @@
 .btn-2:hover{
     background: #FF3A3A;
     color: #ffffff;
+}
+
+.bottom-right-btn{
+    display: flex;
+    flex-direction: row-reverse;
 }
