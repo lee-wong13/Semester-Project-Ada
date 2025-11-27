@@ -157,6 +157,21 @@ h3{
     font-size: 14px;
 }
 
+/* ======================== Responsive ====================== */ 
+
+@media screen and (max-width: 1400px) {
+
+    .header{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    
+}
+
 
 
 

@@ -18,7 +18,7 @@
     <header class="header">
         <nav>
             <div class="logo">
-                <a href="indext.html">
+                <a href="index.html">
                     <h3>Community<br>Science<br>Museum</h3>
 
                     <!--<img src="img/logo.png" alt="Website Logo">-->
@@ -36,6 +36,7 @@
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
+            <img src="img/mdi_hamburger-menu.png" alt="Responsive hamburger menu" class="menu-hamburger">
         </nav>
     </header>
 
@@ -60,7 +61,7 @@
             </div>
 
             <div class="banner_img">
-                <img src="img/scott-webb-102825.jpg" alt="Hero Banner Skull">
+                <img src="img/scott-webb-102825 1.png" alt="Hero Banner museum">
             </div>
         </section>
 
@@ -246,4 +247,16 @@
 
     
 </body>
+
+
+        <script>
+                const menuHamburger = document.querySelector(".menu-hamburger")
+                const navLinks = document.querySelector(".main-nav")
+        
+                menuHamburger.addEventListener('click',()=>{
+                navLinks.classList.toggle('mobile-menu')
+                })
+        </script>
+
+        
 </html>

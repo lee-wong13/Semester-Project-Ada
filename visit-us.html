@@ -31,6 +31,7 @@
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
+			<img src="img/mdi_hamburger-menu.png" alt="Responsive hamburger menu" class="menu-hamburger">
         </nav>
     </header>
 
@@ -181,6 +182,17 @@
 			</span>
 		</div>
 	</footer>
+
+	<!-- ====================== Script for Responsive nav bar ======================= -->
+
+	<script>
+                const menuHamburger = document.querySelector(".menu-hamburger")
+                const navLinks = document.querySelector(".main-nav")
+        
+                menuHamburger.addEventListener('click',()=>{
+                navLinks.classList.toggle('mobile-menu')
+                })
+    </script>
 
     
 </body>

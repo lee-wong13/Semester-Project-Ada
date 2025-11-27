@@ -84,8 +84,13 @@ p{
 
 /* Responsive adjustments */
 
+@media screen and (max-width: 1200px){
+    
+    
+}
+
 /* For tablets and smaller screens */
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .contact_form, .info_card {
         max-width: 90%;
         padding: 20px;
@@ -108,7 +113,7 @@ p{
 }
 
 /* For mobile screens */
-@media (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .container{
         max-width: 720px;
     }
@@ -143,7 +148,7 @@ p{
 }
 
 /* For very small screens */
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
     h1 {
         font-size: 1.5rem;
     }
