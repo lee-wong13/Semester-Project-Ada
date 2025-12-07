@@ -52,3 +52,53 @@ p{
     color: var(--color-primary);
     font-family: var(--body-font);
 }
+
+@media screen and (max-width: 1440px) { 
+  .img-head img {
+    width: 100%;
+    padding-bottom: 4rem;
+  }
+  .p-head {
+    padding: 0 3rem;
+    
+  }
+  
+  .container_info_card {
+    padding: 0 2.5rem;
+    /* text-align: left; */
+  }
+
+  .footer_content {
+    padding: 1rem 2.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) { 
+  .container h1 {
+    font-size: 24px;
+    margin-top: 2rem;
+  } 
+  .container p {
+    font-size: 13px;
+  }
+  .container h1,
+  .info_card h3 {
+    font-size: 24px;
+    margin-top: 2rem;
+    margin: 0;
+    text-align: center;
+  }
+  .info_card {
+    padding: 2rem;
+  }
+  .info_card a {
+    font-size: 12px;
+    text-align: center;
+  }
+  .bottom-right-btn {
+    justify-content: center;
+  }
+  .footer_content {
+    padding: 1rem;
+  }
+}

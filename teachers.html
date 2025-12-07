@@ -1,65 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For Teachers</title>
-    <meta name="description" content="This page include information relate to museum for teachers, either thechers who plan for field trip, school trip,
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>For Teachers</title>
+	<meta name="description" content="This page include information relate to museum for teachers, either thechers who plan for field trip, school trip,
     or maybe arrangment for students to learn more about science.">
-    <link rel="stylesheet" href="css/detail-layout-style.css">
+	<link rel="stylesheet" href="css/detail-layout-style.css">
 </head>
+
 <body>
 
-    <!-- =========== Navigation ====================-->
+	<!-- =========== Navigation ====================-->
 
-    <header class="header">
-        <nav>
-            <div class="logo">
-                <a href="index.html">
-                    <h3>Community<br>Science<br>Museum</h3>
-                </a>
-            </div>
-
-            <div class="main-nav">
-                <ul>
-                    <li><a href="exhibitions.html">Exhibitions</a></li>
-                    <li><a href="kids.html">For Kids</a></li>
-                    <li><a href="teachers.html">For Teachers</a></li>
-                    <li><a href="special-event.html">Special Events</a></li>
-                    <li><a href="visit-us.html">Visit Us</a></li>
-                    <li><a href="get-involved.html">Get Involved</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
-			<img src="img/mdi_hamburger-menu.png" alt="Responsive hamburger menu" class="menu-hamburger">
-        </nav>
-    </header>
-
-    <!-- ===================== Content ============================= -->
-
-    <main class="container">
-        <img src="img/science-teacher.jpg" alt="Science teacher during field trip showing student">
-
-        <h1>For Teachers</h1>
-        <p>As a community-driven museum, we want to work with schools to create places of learning and exploring. Our team are on hand to give tour students guided tours of the museum, teach them in our learning laboratory, and provide great video presentations that wil excite and inspire them.</p>
-
-        <div class="gallery">
-            <img src="img/library-1132573_1920 1.png" alt="Our Museum Library">
-            <img src="img/teacher-2816112 1.png" alt="cartoon teacher doing experiment">
-            <img src="img/luke-ellis-craven-400722 1.png" alt="Luke Ellis visiting museum">
-            <img src="img/billetto-editorial-334686 2.png" alt="an adult doing painting through VR to test the development of technology and AI">
-        </div>
-
-        <div class="info_card">
-            <h2>School Visit</h2>
-            <p>Please get in touch with us here to find out more about our facilities and to arrange a time to bring your students through for a visit.</p>
-            <div class="bottom-right-btn">
-				<button class="btn-1" onclick="location.href='contact.html'">Contact Us</button>
+	<header class="header">
+		<nav>
+			<div class="logo">
+				<a href="index.html">
+					<h3>Community<br>Science<br>Museum</h3>
+				</a>
 			</div>
-        </div>
-    </main>
 
-    <!-- ================== Footer =========================-->
+			<div class="main-nav">
+				<ul>
+					<li><a href="exhibitions.html">Exhibitions</a></li>
+					<li><a href="kids.html">For Kids</a></li>
+					<li><a href="teachers.html">For Teachers</a></li>
+					<li><a href="special-event.html">Special Events</a></li>
+					<li><a href="visit-us.html">Visit Us</a></li>
+					<li><a href="get-involved.html">Get Involved</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<img src="img/mdi_hamburger-menu.png" alt="Responsive hamburger menu" class="menu-hamburger">
+		</nav>
+	</header>
+
+	<!-- ===================== Content ============================= -->
+
+	<main class="container">
+		<div class="img-head">
+			<img src="img/science-teacher.jpg" alt="Science teacher during field trip showing student">
+		</div>
+
+
+		<h1>For Teachers</h1>
+		<p class="p-head">As a community-driven museum, we want to work with schools to create places of learning and
+			exploring. Our team
+			are on hand to give tour students guided tours of the museum, teach them in our learning laboratory, and provide
+			great video presentations that wil excite and inspire them.</p>
+
+		<div class="gallery">
+			<img src="img/library-1132573_1920 1.png" alt="Our Museum Library">
+			<img src="img/teacher-2816112 1.png" alt="cartoon teacher doing experiment">
+			<img src="img/luke-ellis-craven-400722 1.png" alt="Luke Ellis visiting museum">
+			<img src="img/billetto-editorial-334686 2.png"
+				alt="an adult doing painting through VR to test the development of technology and AI">
+		</div>
+
+		<div class="container_info_card">
+			<div class="info_card">
+				<h2>School Visit</h2>
+				<p>Please get in touch with us here to find out more about our facilities and to arrange a time to bring your
+					students through for a visit.</p>
+				<div class="bottom-right-btn">
+					<button class="btn-1" onclick="location.href='contact.html'">Contact Us</button>
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<!-- ================== Footer =========================-->
 
 	<footer>
 		<div class="footer_container container">
@@ -157,14 +170,15 @@
 	<!-- ====================== Script for Responsive nav bar ======================= -->
 
 	<script>
-                const menuHamburger = document.querySelector(".menu-hamburger")
-                const navLinks = document.querySelector(".main-nav")
-        
-                menuHamburger.addEventListener('click',()=>{
-                navLinks.classList.toggle('mobile-menu')
-                })
-    </script>
+		const menuHamburger = document.querySelector(".menu-hamburger")
+		const navLinks = document.querySelector(".main-nav")
 
-    
+		menuHamburger.addEventListener('click', () => {
+			navLinks.classList.toggle('mobile-menu')
+		})
+	</script>
+
+
 </body>
+
 </html>

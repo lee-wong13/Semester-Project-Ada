@@ -3,181 +3,300 @@
 @import url("./nav.css");
 @import url("./footer.css");
 
-
 h1 {
-    font-size: var(--h1-font-size);
-   font-family: var(--heading-font-family);
-   color: var(--color-primary);
+  font-size: var(--h1-font-size);
+  font-family: var(--heading-font-family);
+  color: var(--color-primary);
 }
 
-h2{
-    font-family: var(--heading-font-family);
-    font-size: var(--h2-font-size);
-    color: var(--color-primary);
+h2 {
+  font-family: var(--heading-font-family);
+  font-size: var(--h2-font-size);
+  color: var(--color-primary);
 }
 
-h3{
-    font-family: var(--heading-font-family);
-    font-size: var(--h3-font-size);
-    color: var(--color-primary);
+h3 {
+  font-family: var(--heading-font-family);
+  font-size: var(--h3-font-size);
+  color: var(--color-primary);
 }
 
-
-.container{
-    max-width: 1440px;
-    margin: 0 auto;
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-.banner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+.banner {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* position: relative; */
+  gap: 6rem;
 }
 
-.banner_content{
-    position: relative;
-    z-index: 1;
-    max-width: 720px;
+.banner_content {
+  /* position: relative; */
+  /* z-index: 1; */
+  /* max-width: 720px; */
+  /* padding-right: 5rem; */
 }
 
-.banner_content h1{
-   margin-bottom: 60px;
+.banner_content h1 {
+  margin-bottom: 60px;
 }
 
-.banner_content p{
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-semi-bold);
-    margin-bottom: 100px;
+.banner_content p {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 100px;
 }
 
 .banner_img img {
-    width: 800px;
-    height: 500px;
+  /* width: 800px; */
+  height: 500px;
 }
 
-.btn-1{
-    margin-right: 70px;
+.btn_layout {
+  display: flex;
+  justify-content: space-between;
+}
+/* ======================= Experience the Museum ============================= */
+
+.museum_content {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 0 40px;
 }
 
-/* ======================= Experience the Museum ============================= */ 
-
-.museum_content{
-    text-align: center;
-    margin-top: 3rem;
-    padding: 0 40px;
+.content_grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
 }
 
-.content_grid{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 50px auto;
+.content_card {
+  width: 327px;
+  height: 348px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: 1px solid black;
 }
 
-.content_card{
-    width: 327px;
-    height: 348px;
-    margin: auto;
-    text-align: center;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    border: 1px solid black;
+.content_card img {
+  max-width: 100%;
+  max-height: 205px;
+  margin-top: 30px;
 }
 
-.content_card img{
-    max-width: 100%;
-    max-height: 205px;
-    margin-top: 30px;
+.content_card h3 {
+  margin: 30px 0;
 }
 
-.content_card h3{
-    margin: 30px 0;
+/* ========================== Our Mission =========================*/
+
+.mission {
+  max-width: 1440px;
+  height: 407px;
+  background-color: var(--color-primary);
+  margin: 5rem auto;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-/* ========================== Our Mission =========================*/ 
-
-.mission{
-    max-width: 1440px;
-    max-height: 407px;
-    background-color: var(--color-primary);
-    margin: 5rem auto;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+.mission_content {
+  display: flex;
 }
 
-.mission_content{
-    display: flex;
+.mission_desc {
+  padding: 30px 50px;
 }
 
-.mission_desc{
-    padding: 30px 50px;
+.mission_desc h2 {
+  color: var(--color-secondary);
+  margin-bottom: 20px;
 }
 
-.mission_desc h2{
-    color: var(--color-secondary);
-    margin-bottom: 20px;
-}
-
-.mission_desc p{
-    color: var(--color-secondary);
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-    line-height: 20px;
+.mission_desc p {
+  color: var(--color-secondary);
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  line-height: 20px;
 }
 
 /* ============================= Events and Programs ==============================*/
 
-.events{
-    margin: 5rem auto;
+.events {
+  margin: 5rem auto;
 }
 
-.events h2{
-    text-align: center;
-    margin: 30px 0;
+.events h2 {
+  text-align: center;
+  margin: 30px 0;
 }
 
-.events_card{
-    width: 1181px;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 20px 30px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    margin: 30px auto;
+.events_card {
+  /* width: 1181px; */
+  /* padding: 0 4rem; */
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px 30px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  margin: 30px 4rem;
 }
 
-
-.events_card p{
-    margin: 20px 0;
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
+.events_card p {
+  margin: 20px 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
 }
 
-.events_card .date_time{
-    font-size: 14px;
+.events_card .date_time {
+  font-size: 14px;
 }
 
-/* ======================== Responsive ====================== */ 
+/* ======================== Responsive ====================== */
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1440px) {
+  .container {
+    padding: 0 2.5rem;
+  }
 
-    .header{
-        width: 100%;
-    }
+  .header {
+    width: 100%;
+  }
 
-    h1{
+  /* h1{
         font-size: 40px;
-    }
+    } */
 
-    
+  .banner {
+    gap: 3rem;
+  }
+
+  .layout-left {
+    flex: 1 1 40%;
+  }
+
+  .layout-right {
+    flex: 1 1 60%;
+  }
+  
+  .banner_content {
+    max-width: auto;
+  }
+
+  .banner_img img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .mission {
+    height: auto;
+  }
+
+  .museum_content .content_grid {
+    column-gap: 3rem;
+  }
 }
 
+@media screen and (max-width: 1300px) {
+	.banner_content h1 {
+		margin-bottom: 2rem;
+	}
 
+	.btn_layout {
+		flex-wrap: wrap;
+		justify-content: space-around;
+		column-gap: 2rem;
+		row-gap: 1rem;
+	}
 
+	.btn-1, .btn-2{
+		width: 100%;
+	}
 
+  .mission_content {
+    flex-direction: column;
+  }
 
+  .museum_content .content_grid {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 3rem;
+  }
+}
 
+@media  screen and (max-width: 1024px) {
+	.container {
+		padding: 0 1.5rem;
+	}
 
+	.banner {
+		flex-direction: column-reverse;
+	}
 
+	.btn_layout {
+		flex-wrap: nowrap;
+	}
 
+	.banner_content p {
+		margin-bottom: 2rem;
+	}
 
+	.banner_img img {
+		height: 600px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.banner_img img{
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.container {
+    padding: 0;
+  }
+  .banner_content {
+    padding: 0 1rem;
+  }
+  .banner_content h1 {
+    font-size: 24px;
+  }
+  .banner_content p {
+    font-size: 14px;
+  }
+  .museum_content h2 {
+    font-size: 24px;
+  }
+  .content_card h3 {
+    font-size: 24px;
+  }
+  .mission_desc {
+    padding: 1.5rem;
+  }
+  .mission_desc h2 {
+    font-size: 24px;
+  }
+  .mission_desc p {
+    font-size: 14px;
+  }
+
+  .events h2 {
+    font-size: 35px;
+  }
+  .events_card {
+    margin: 30px;
+    padding: 1rem;
+  }
+  .events_card h3 {
+    font-size: 22px;
+  }
+  .events_card p {
+    font-size: 16px;
+  }
+}

@@ -1,70 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Special Events</title>
-    <link rel="stylesheet" href="css/event-style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Special Events</title>
+	<link rel="stylesheet" href="css/event-style.css">
 </head>
+
 <body>
 
-    <!-- =========== Navigation ====================-->
+	<!-- =========== Navigation ====================-->
 
-    <header class="header">
-        <nav>
-            <div class="logo">
-                <a href="index.html">
-                    <h3>Community<br>Science<br>Museum</h3>
-                </a>
-            </div>
+	<header class="header">
+		<nav>
+			<div class="logo">
+				<a href="index.html">
+					<h3>Community<br>Science<br>Museum</h3>
+				</a>
+			</div>
 
-            <div class="main-nav">
-                <ul>
-                    <li><a href="exhibitions.html">Exhibitions</a></li>
-                    <li><a href="kids.html">For Kids</a></li>
-                    <li><a href="teachers.html">For Teachers</a></li>
-                    <li><a href="special-event.html">Special Events</a></li>
-                    <li><a href="visit-us.html">Visit Us</a></li>
-                    <li><a href="get-involved.html">Get Involved</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
+			<div class="main-nav">
+				<ul>
+					<li><a href="exhibitions.html">Exhibitions</a></li>
+					<li><a href="kids.html">For Kids</a></li>
+					<li><a href="teachers.html">For Teachers</a></li>
+					<li><a href="special-event.html">Special Events</a></li>
+					<li><a href="visit-us.html">Visit Us</a></li>
+					<li><a href="get-involved.html">Get Involved</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
 			<img src="img/mdi_hamburger-menu.png" alt="Responsive hamburger menu" class="menu-hamburger">
-        </nav>
-    </header>
+		</nav>
+	</header>
 
-    <!-- ====================== Content =================== -->
+	<!-- ====================== Content =================== -->
 
-    <main class="container">
-
-        <img src="img/andrew-ruiz-348421 2.png" alt="Andrew Ruiz texting spaceship">
-
-        <h1>Special Events and Exhibitons</h1>
-        <p>Join exciting programs, guest lecture, and museum adventures</p>
-
-        
-        <div class="info_card">
-            <h3>Visiting Professor of Aeronautics</h3>
-            <p class="desc">It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
-            <a href="#">Learn more...</a>
-        </div>
-
-        <div class="info_card">
-            <h3>Night in the Museum</h3>
-            <p class="desc">Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.</p>
-            <a href="#">Learn more...</a>
-        </div>
-
-        <div class="info_card">
-            <h3>Energetica Exhibition on Loan</h3>
-            <p class="desc">On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. It’s a series of installations that allow visitors to experience the power of the elements as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.</p>
-            <a href="#">Learn more...</a>
-        </div>
+	<main class="container">
+		<div class="img-head">
+			<img src="img/andrew-ruiz-348421 2.png" alt="Andrew Ruiz texting spaceship">
+		</div>
 
 
-    </main>
+		<h1>Special Events and Exhibitons</h1>
+		<p class="p-head">Join exciting programs, guest lecture, and museum adventures</p>
 
-    <!-- ================== Footer =========================-->
+		<div class="container_info_card">
+			<div class="info_card">
+				<h3>Visiting Professor of Aeronautics</h3>
+				<p class="desc">It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of
+					Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this
+					exciting ‘space’.</p>
+				<a href="#">Learn more...</a>
+			</div>
+
+			<div class="info_card">
+				<h3>Night in the Museum</h3>
+				<p class="desc">Get your family together for an exciting night in the museum as you sleep over beside dinosaurs
+					and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of
+					science.</p>
+				<a href="#">Learn more...</a>
+			</div>
+
+			<div class="info_card">
+				<h3>Energetica Exhibition on Loan</h3>
+				<p class="desc">On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the
+					Community Science Museum. It’s a series of installations that allow visitors to experience the power of the
+					elements as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are
+					able to use and control wind to create power.</p>
+				<a href="#">Learn more...</a>
+			</div>
+		</div>
+
+
+
+
+	</main>
+
+	<!-- ================== Footer =========================-->
 
 	<footer>
 		<div class="footer_container container">
@@ -162,14 +176,15 @@
 	<!-- ====================== Script for Responsive nav bar ======================= -->
 
 	<script>
-                const menuHamburger = document.querySelector(".menu-hamburger")
-                const navLinks = document.querySelector(".main-nav")
-        
-                menuHamburger.addEventListener('click',()=>{
-                navLinks.classList.toggle('mobile-menu')
-                })
-    </script>
+		const menuHamburger = document.querySelector(".menu-hamburger")
+		const navLinks = document.querySelector(".main-nav")
 
-    
+		menuHamburger.addEventListener('click', () => {
+			navLinks.classList.toggle('mobile-menu')
+		})
+	</script>
+
+
 </body>
+
 </html>

@@ -1,68 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cosmology</title>
-    <link rel="stylesheet" href="css/detail-layout-style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cosmology</title>
+	<link rel="stylesheet" href="css/detail-layout-style.css">
 </head>
+
 <body>
 
-    <!-- =========== Navigation ====================-->
+	<!-- =========== Navigation ====================-->
 
-    <header class="header">
-        <nav>
-            <div class="logo">
-                <a href="index.html">
-                    <h3>Community<br>Science<br>Museum</h3>
-                </a>
-            </div>
+	<header class="header">
+		<nav>
+			<div class="logo">
+				<a href="index.html">
+					<h3>Community<br>Science<br>Museum</h3>
+				</a>
+			</div>
 
-            <div class="main-nav">
-                <ul>
-                    <li><a href="exhibitions.html">Exhibitions</a></li>
-                    <li><a href="kids.html">For Kids</a></li>
-                    <li><a href="teachers.html">For Teachers</a></li>
-                    <li><a href="special-event.html">Special Events</a></li>
-                    <li><a href="visit-us.html">Visit Us</a></li>
-                    <li><a href="get-involved.html">Get Involved</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
+			<div class="main-nav">
+				<ul>
+					<li><a href="exhibitions.html">Exhibitions</a></li>
+					<li><a href="kids.html">For Kids</a></li>
+					<li><a href="teachers.html">For Teachers</a></li>
+					<li><a href="special-event.html">Special Events</a></li>
+					<li><a href="visit-us.html">Visit Us</a></li>
+					<li><a href="get-involved.html">Get Involved</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
 			<img src="img/mdi_hamburger-menu.png" alt="Responsive hamburger menu" class="menu-hamburger">
-        </nav>
-    </header>
+		</nav>
+	</header>
 
-    <!-- ===================== Content ============================= -->
+	<!-- ===================== Content ============================= -->
 
-    <main class="container">
-        <img src="img/mammoth-1257288_1920 2.png" alt="skeleton of mammoth, which is one of the extincted animals">
+	<main class="container">
+		<div class="img-head">
+			<img src="img/mammoth-1257288_1920 2.png" alt="skeleton of mammoth, which is one of the extincted animals">
+		</div>
 
-        <h1>Cosmology</h1>
-        <p>Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and what we can see and know about the universe around us. We’ll locate the various constellations and galaxies that can be seen and learn a bit about the early navigators who used the stars to travel by.
-            
-            <br> <br>
 
-            Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest exploration of the planets in our solar system.</p>
+		<h1>Cosmology</h1>
+		<p>Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and what
+			we can see and know about the universe around us. We’ll locate the various constellations and galaxies that can be
+			seen and learn a bit about the early navigators who used the stars to travel by.
 
-        <div class="gallery">
-            <img src="img/skeleton-414543_1920 1.png" alt="human's skeleton">
-            <img src="img/toa-heftiba-412579 1.png" alt="skeleton of the dinosaur">
-            <img src="img/genoa-956405_1920 1.png" alt="a large ant, one of the extincted animal">
-            <img src="img/evolution 1.png" alt="explaining human's evolution">
-        </div>
+			<br> <br>
 
-        <div class="cta">
+			Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest
+			exploration of the planets in our solar system.
+		</p>
 
-            <h1>Ready to Explore in person?</h1>
-            <button class="btn-1">Visit Us</button>
-            
-        </div>
+		<div class="gallery">
+			<img src="img/skeleton-414543_1920 1.png" alt="human's skeleton">
+			<img src="img/toa-heftiba-412579 1.png" alt="skeleton of the dinosaur">
+			<img src="img/genoa-956405_1920 1.png" alt="a large ant, one of the extincted animal">
+			<img src="img/evolution 1.png" alt="explaining human's evolution">
+		</div>
 
-        
-    </main>
+		<div class="cta">
 
-    <!-- ================== Footer =========================-->
+			<h1>Ready to Explore in person?</h1>
+			<button class="btn-1">Visit Us</button>
+
+		</div>
+
+
+	</main>
+
+	<!-- ================== Footer =========================-->
 
 	<footer>
 		<div class="footer_container container">
@@ -160,14 +169,15 @@
 	<!-- ====================== Script for Responsive nav bar ======================= -->
 
 	<script>
-                const menuHamburger = document.querySelector(".menu-hamburger")
-                const navLinks = document.querySelector(".main-nav")
-        
-                menuHamburger.addEventListener('click',()=>{
-                navLinks.classList.toggle('mobile-menu')
-                })
-    </script>
+		const menuHamburger = document.querySelector(".menu-hamburger")
+		const navLinks = document.querySelector(".main-nav")
 
-    
+		menuHamburger.addEventListener('click', () => {
+			navLinks.classList.toggle('mobile-menu')
+		})
+	</script>
+
+
 </body>
+
 </html>

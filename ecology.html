@@ -1,68 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cosmology</title>
-    <link rel="stylesheet" href="css/detail-layout-style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cosmology</title>
+	<link rel="stylesheet" href="css/detail-layout-style.css">
 </head>
+
 <body>
 
-    <!-- =========== Navigation ====================-->
+	<!-- =========== Navigation ====================-->
 
-    <header class="header">
-        <nav>
-            <div class="logo">
-                <a href="index.html">
-                    <h3>Community<br>Science<br>Museum</h3>
-                </a>
-            </div>
+	<header class="header">
+		<nav>
+			<div class="logo">
+				<a href="index.html">
+					<h3>Community<br>Science<br>Museum</h3>
+				</a>
+			</div>
 
-            <div class="main-nav">
-                <ul>
-                    <li><a href="exhibitions.html">Exhibitions</a></li>
-                    <li><a href="kids.html">For Kids</a></li>
-                    <li><a href="teachers.html">For Teachers</a></li>
-                    <li><a href="special-event.html">Special Events</a></li>
-                    <li><a href="visit-us.html">Visit Us</a></li>
-                    <li><a href="get-involved.html">Get Involved</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
+			<div class="main-nav">
+				<ul>
+					<li><a href="exhibitions.html">Exhibitions</a></li>
+					<li><a href="kids.html">For Kids</a></li>
+					<li><a href="teachers.html">For Teachers</a></li>
+					<li><a href="special-event.html">Special Events</a></li>
+					<li><a href="visit-us.html">Visit Us</a></li>
+					<li><a href="get-involved.html">Get Involved</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
 			<img src="img/mdi_hamburger-menu.png" alt="Responsive hamburger menu" class="menu-hamburger">
-        </nav>
-    </header>
+		</nav>
+	</header>
 
-    <!-- ===================== Content ============================= -->
+	<!-- ===================== Content ============================= -->
 
-    <main class="container">
-        <img src="img/environmental-conservation-garden-children 2.png" alt="Nature picture to indicate relevant to ecology">
+	<main class="container">
 
-        <h1>Cosmology</h1>
-        <p>Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and what we can see and know about the universe around us. We’ll locate the various constellations and galaxies that can be seen and learn a bit about the early navigators who used the stars to travel by.
-            
-            <br> <br>
+		<div class="img-head">
+			<img src="img/environmental-conservation-garden-children 2.png"
+			alt="Nature picture to indicate relevant to ecology">
+		</div>
+		
 
-            Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest exploration of the planets in our solar system.</p>
+		<h1>Cosmology</h1>
+		<p>Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and what
+			we can see and know about the universe around us. We’ll locate the various constellations and galaxies that can be
+			seen and learn a bit about the early navigators who used the stars to travel by.
 
-        <div class="gallery">
-            <img src="img/climate-change-with-industrial-pollution 1.png" alt="AI picture to describe the climate change">
-            <img src="img/girl-with-red-hat-hdLjPfcyhyE-unsplash 1.png" alt="how global warming has affect on the world">
-            <img src="img/jason-mavrommatis-nyL-rzwP-Mk-unsplash 1.png" alt="Windmills">
-            <img src="img/javier-miranda-7bnvNN3R_eo-unsplash 1.png" alt="global warming slowly destroy the world">
-        </div>
+			<br> <br>
 
-        <div class="cta">
+			Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest
+			exploration of the planets in our solar system.
+		</p>
 
-            <h1>Ready to Explore in person?</h1>
-            <button class="btn-1">Visit Us</button>
-            
-        </div>
+		<div class="gallery">
+			<img src="img/climate-change-with-industrial-pollution 1.png" alt="AI picture to describe the climate change">
+			<img src="img/girl-with-red-hat-hdLjPfcyhyE-unsplash 1.png" alt="how global warming has affect on the world">
+			<img src="img/jason-mavrommatis-nyL-rzwP-Mk-unsplash 1.png" alt="Windmills">
+			<img src="img/javier-miranda-7bnvNN3R_eo-unsplash 1.png" alt="global warming slowly destroy the world">
+		</div>
 
-        
-    </main>
+		<div class="cta">
 
-    <!-- ================== Footer =========================-->
+			<h1>Ready to Explore in person?</h1>
+			<button class="btn-1">Visit Us</button>
+
+		</div>
+
+
+	</main>
+
+	<!-- ================== Footer =========================-->
 
 	<footer>
 		<div class="footer_container container">
@@ -160,14 +171,15 @@
 	<!-- ====================== Script for Responsive nav bar ======================= -->
 
 	<script>
-                const menuHamburger = document.querySelector(".menu-hamburger")
-                const navLinks = document.querySelector(".main-nav")
-        
-                menuHamburger.addEventListener('click',()=>{
-                navLinks.classList.toggle('mobile-menu')
-                })
-    </script>
+		const menuHamburger = document.querySelector(".menu-hamburger")
+		const navLinks = document.querySelector(".main-nav")
 
-    
+		menuHamburger.addEventListener('click', () => {
+			navLinks.classList.toggle('mobile-menu')
+		})
+	</script>
+
+
 </body>
+
 </html>

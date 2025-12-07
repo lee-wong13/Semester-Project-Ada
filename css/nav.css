@@ -1,165 +1,166 @@
 @import url("./variables.css");
 @import url("./reset.css");
 
-.header{
-    background-color: var(--color-primary);
-    height: 100px;
-    font-family: var(--heading-font-family);
-    font-weight: var(--font-bold);
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 2;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+.header {
+  background-color: var(--color-primary);
+  /* height: 100px; */
+  font-family: var(--heading-font-family);
+  font-weight: var(--font-bold);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    max-width: 1440px;
-    margin: 0 auto;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-.logo{
-    padding-top: 5px;
-    line-height: 22px;
+.logo {
+  padding-top: 5px;
+  line-height: 22px;
 }
 
-.logo a{
-    text-decoration: none;
+.logo a {
+  text-decoration: none;
 }
 
-.logo h3{
-    font-size: 18px;
-    font-family: var(--heading-font-family);
-    color: var(--color-secondary);
-    font-size: var(--normal-font-size);
+.logo h3 {
+  font-size: 18px;
+  font-family: var(--heading-font-family);
+  color: var(--color-secondary);
+  font-size: var(--normal-font-size);
 }
 
-
-/*.logo img{
-    width: 100%;
-    height: 90px;
-} */
-
-nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-nav ul li{
-    display: block;
-    padding: 10px 35px;
+nav ul li {
+  display: block;
+  padding-left: 35px;
+  /* padding: 10px 35px; */
 }
 
-nav ul li a{
-    color: var(--color-secondary);
-    text-decoration: none;
+nav ul li a {
+  color: var(--color-secondary);
+  text-decoration: none;
 }
 
-nav ul li:hover a{
-    color: black;
+nav ul li:hover a {
+  color: black;
 }
 
-nav .menu-hamburger{
-    display: none;
-    width: 35px;
-    position: absolute;
-    left: 35px;
-    top: 35px;
+nav .menu-hamburger {
+  display: none;
+  width: 35px;
+  position: absolute;
+  left: 35px;
+  top: 25px;
 }
-
 
 /* ================ Responsive nav bar =================== */
 /*================ Tutorial by LiveCode (Youtube) =================== */
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1440px) {
+  .header {
+    width: 100%;
+    padding: 20px auto;
+  }
 
-    .header{
-        width: 100%;
-        padding: 20px auto;
-    }
+  .logo h3 {
+    font-size: 14px;
+  }
 
-    .logo h3{
-        padding: 0 20px;
-    }
+  nav {
+    padding: 5px 2.5rem;
+  }
+
+  .main-nav {
+    font-size: 16px;
+  }
 }
 
-@media screen and (max-width: 1200px) {
-    .logo h3{
-        padding: 0 20px;
-    }
-
-    nav ul li{
-        padding: 0 20px;
-    }
+@media screen and (max-width: 1300px) {
 }
 
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1024px) {
+  .logo h3 {
+    /* padding: 0 20px; */
+  }
 
-   .logo h3{
-    padding: 0 20px;
-   }
-
-   nav ul li{
+  nav ul li {
     font-size: 13px;
-    padding: 0 20px;
-   }
-    
+    /* padding: 0 20px; */
+  }
 }
 
 @media screen and (max-width: 900px) {
+  nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 1;
+  }
 
+  nav .menu-hamburger {
+    display: block;
+  }
 
-    nav .logo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        z-index: 1;
-    }
+  .main-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-primary);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100%;
+    transition: all 0.5s ease-out;
+  }
 
-    nav .menu-hamburger{
-        display: block;
-    }
+  .main-nav.mobile-menu {
+    margin-left: 0;
+  }
 
-    .main-nav{
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: var(--color-primary);
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: -100%;
-        transition: all 0.5s ease-out;
-    }
+  .main-nav ul {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .main-nav.mobile-menu{
-        margin-left: 0;
-    }
-
-    .main-nav ul{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .main-nav ul li {
-        margin: 25px 0;
-        font-size: 1.2rem;
-    }
-
+  .main-nav ul li {
+    margin: 25px 0;
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    nav{
-        width: 100%;
-    }
+  nav {
+    width: 100%;
+  }
+
+  .logo h3 {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  nav .menu-hamburger {
+    top: 15px;
+    left: 25px;
+  }
+
+  nav .mobile-menu li {
+    padding: 0;
+  }
 }
-
-
