@@ -93,13 +93,9 @@ nav .menu-hamburger {
 }
 
 @media screen and (max-width: 1024px) {
-  .logo h3 {
-    /* padding: 0 20px; */
-  }
 
   nav ul li {
     font-size: 13px;
-    /* padding: 0 20px; */
   }
 }
 

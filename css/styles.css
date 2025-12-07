@@ -29,17 +29,9 @@ h3 {
 .banner {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
-  /* position: relative; */
   gap: 6rem;
 }
 
-.banner_content {
-  /* position: relative; */
-  /* z-index: 1; */
-  /* max-width: 720px; */
-  /* padding-right: 5rem; */
-}
 
 .banner_content h1 {
   margin-bottom: 60px;
@@ -53,7 +45,6 @@ h3 {
 }
 
 .banner_img img {
-  /* width: 800px; */
   height: 500px;
 }
 
@@ -138,8 +129,6 @@ h3 {
 }
 
 .events_card {
-  /* width: 1181px; */
-  /* padding: 0 4rem; */
   border: 1px solid black;
   border-radius: 10px;
   padding: 20px 30px;
@@ -168,9 +157,6 @@ h3 {
     width: 100%;
   }
 
-  /* h1{
-        font-size: 40px;
-    } */
 
   .banner {
     gap: 3rem;
