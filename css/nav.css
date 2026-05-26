@@ -53,10 +53,39 @@ nav ul li {
 nav ul li a {
   color: var(--color-secondary);
   text-decoration: none;
+  position: relative;
+  transition: color 0.25s ease;
 }
 
-nav ul li:hover a {
-  color: black;
+nav ul li:hover a,
+nav ul li a:focus-visible {
+  color: #ffe8e8;
+}
+
+nav ul li a.active,
+nav ul li a[aria-current="page"] {
+  color: #ffffff;
+}
+
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-secondary);
+  transition: width 0.25s ease;
+}
+
+nav ul li:hover a::after,
+nav ul li a:focus-visible::after {
+  width: 100%;
+}
+
+nav ul li a.active::after,
+nav ul li a[aria-current="page"]::after {
+  width: 100%;
 }
 
 nav .menu-hamburger {
@@ -93,7 +122,6 @@ nav .menu-hamburger {
 }
 
 @media screen and (max-width: 1024px) {
-
   nav ul li {
     font-size: 13px;
   }
