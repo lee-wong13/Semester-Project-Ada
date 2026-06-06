@@ -53,18 +53,9 @@ https://lee-wong13.github.io/Semester-Project-Ada/
 
 ## Future Improvements
 
-- Improving performance scores by further optimising hero
-  images and reducing file sizes
-- Adding JavaScript interactivity to more pages — such as
-  a working event booking form and interactive exhibits section
-- Expanding the For Kids and For Teachers pages with richer,
-  more tailored content
 - Adding smooth scroll animations and page transitions for
   a more polished user experience
-- Connecting the events section to a live calendar or CMS
-  so content can be updated without touching the code
-- Further improving accessibility to reach a Lighthouse
-  accessibility score above 95
+- Adding active nav for better user experience
 
 ## Acknowledgments
 
